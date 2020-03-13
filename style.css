@@ -1,0 +1,58 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url("./img/backgroundBattle.gif");
+        background-size: cover;
+        border-image-repeat: no-repeat;
+    }
+    
+    #game {
+        width: 100vh;
+        display: flex;
+    }
+    
+    #header {
+        height: 30vh;
+    }
+    
+    #body {
+        height: 30vh;
+    }
+    
+    #footer {
+        height: 40vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #playerOneMenu {
+        background-color: hsla(41, 81, 29, 0.4);
+        height: 50px;
+        width: 50px;
+    }
+    
+    #playerTwoMenu {
+        background-color: hsla(41, 81, 29, 0.4);
+        height: 50px;
+        width: 50px;
+    }
+    
+    button {
+        background-color: hsla(31, 93, 42, 0.6);
+        height: 50px;
+        width: 50px;
+    }
+    
+    #characters {
+        width: 100%;
+        height: 3rem;
+    }
+    
+    #wizard {}
+    
+    #witch {
+        padding-top: 200px;
+    }

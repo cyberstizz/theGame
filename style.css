@@ -1,3 +1,17 @@
+* {
+    border: solid 5px;
+}
+
+body {
+    background-image: url(./img/backgroundBattle.gif);
+    background-repeat: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
 .head {
     text-align: center;
     display: flex;
@@ -23,5 +37,57 @@
 }
 
 .roundDisplay {
-    border: black solid 5vh;
+    border: black solid 1px;
+}
+
+.witchMove {
+    color: blueviolet;
+}
+
+.battleInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+}
+
+.health {
+    color: chartreuse;
+}
+
+.battleStage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+}
+
+.wizMoveBox {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
+}
+
+button {
+    background-color: orange;
+}
+
+.wizard {
+    width: 15vw;
+}
+
+.animationSpace {
+    width: 15vw;
+}
+
+.witch {
+    width: 15vw;
+}
+
+.witchMoveBox {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
 }

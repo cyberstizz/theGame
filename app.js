@@ -650,7 +650,7 @@ const wizardShield = () => {
 }
 
 const wizardAbsorb = () => {
-    hisMove = 'Absorb';
+    hisMove = 'absorb';
 
     //the wizards move box will change to the results of the selected button
 

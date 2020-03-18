@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="no-js">
+<html class="js">
 
 <head>
     <meta charset="utf-8">
@@ -12,67 +12,81 @@
 </head>
 
 <body>
-    <header class="head">
-        <img class="headImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJubvac5LtNOwJtYNtNx6m67AKuexoQ3KxfZJxjtdkVQPaaN0c" alt="">
+    <div id="gameOver">
+
+        <h1>Game Over !!!</h1><br>
+        <br>
+        <br>
+        <br>
+        <h1>If you want to play again click the button</h1>
+        <br>
+        <br>
+        <br>
+        <a href="splash.html"><button id="endButton">Play Again</button></a>
+    </div>
+    <header id="head">
+        <img id="headImg" src="./img/gameLogo.png" alt=" ">
     </header>
-    <div class="bod">
-        <div class="wizardMove">
+    <div id="bod">
+        <div id="wizardMove">
             <h1>Wizard Chose Attack</h1>
         </div>
-        <div class="roundDisplay">
+        <div id="roundDisplay">
             <h3>Round</h3> <br>
-            <h4>1</h4>
+            <h4 id="roundNumber">0</h4>
         </div>
         <div class="witchMove">
             <h1>Which Chose Attack</h1>
         </div>
     </div>
-    <div class="battleInfo">
-        <div class="wizHealthBar">
-            <div class="health">
-                <h3>Health</h3>
+    <div id="battleInfo">
+        <div id="wizHealthBar">
+            <div id="health">
+                <h3 id="healthWord">Health</h3>
             </div><br>
-            <div class="wizBar">
-                <div class="wizbar1"></div>
-                <div class="wizbar2"></div>
-                <div class="wizbar3"></div>
-                <div class="wizbar4"></div>
-                <div class="wizbar5"></div>
+            <div id="wizBar">
+                <div id="wizbar1"></div>
+                <div id="wizbar2"></div>
+                <div id="wizbar3"></div>
+                <div id="wizbar4"></div>
+                <div id="wizbar5"></div>
             </div>
         </div>
-        <div class="turnDisplay">
-            <h1>Wizards Turn</h1>
+        <div id="turnDisplay">
+            <h2>Wizards Turn</h2>
         </div>
-        <div class="witchHealthBar">
-            <div class="health">
+        <div id="witchHealthBar">
+            <div id="health">
                 <h3>Health</h3>
             </div><br>
-            <div class="witchBar">
-                <div class="witchBar1"></div>
-                <div class="witchBar2"></div>
-                <div class="witchBar3"></div>
-                <div class="witchBar4"></div>
-                <div class="witchBar5"></div>
+            <div id="witchBar">
+                <div id="witchBar1"></div>
+                <div id="witchBar2"></div>
+                <div id="witchBar3"></div>
+                <div id="witchBar4"></div>
+                <div id="witchBar5"></div>
             </div>
         </div>
     </div>
-    <div class="battleStage">
-        <div class="wizMoveBox">
-            <button class="button">Attack</button>
-            <button class="button">Shield</button>
-            <button class="button">Absorb</button>
+    <div id="battleStage">
+        <div id="wizMoveBox">
+            <button id="wizbuttonAttack">Attack</button>
+            <button id="wizbuttonShield">Shield</button>
+            <button id="wizbuttonAbsorb">Absorb</button>
         </div>
-        <div class="wizard">
-            <img src="./img/fixedWizard.gif">
+        <div id="wizard">
+            <img id="theWizard" src="./img/fixedWizard.gif">
         </div>
-        <div class="animationSpace"></div>
-        <div class="witch">
-            <img src="./img/witchCharacter.gif">
+        <div id="animationSpace">
+            <img id="fireworks" src="./img/absorb power.gif">
         </div>
-        <div class="witchMoveBox">
-            <button class="button">Attack</button>
-            <button class="button">Shield</button>
-            <button class="button">Absorb</button>
+        <div id="witch">
+            <img src="./img/witchCharacter.gif ">
+        </div>
+        <div id="witchMoveBox">
+            <button id="witchbuttonAttack">Attack</button>
+            <button id="witchbuttonShield">Shield</button>
+            <button id="witchbuttonAbsorb">Absorb</button>
         </div>
     </div>
 

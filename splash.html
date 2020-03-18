@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="splash.css">
+</head>
+
+<body>
+    <div id="rulesBox">
+        <h3>Wizard vs Witch Rules
+            <br>• The wizard is fighting the witch until either player wins by depleting the opponents health
+            <br> Both players start with five health
+            <br> If a player loses a round their health goes down by one
+            <br>The Wizard always goes first
+            <br> The Computer is the Witch
+            <br> During each players turn they have the option to either Attack, Shield, or Absorb
+            <br> ----- If a player chooses attack
+            <br>They draw if the opponent attacks
+            <br> They lose if the opponent shields
+            <br> They win if the opponent absorbs
+            <br> ----- If a player chooses shield
+            <br> They draw if the opponent shields
+            <br> They lose if the opponent absorbs
+            <br> They win if the opponent attacks
+            <br> ----- If the player chooses absorb
+            <br> They draw if the opponent absorbs
+            <br>They lose if the opponent attacks
+            <br>They win if the opponent shields
+            <br>Each round continues in succession until a player wins
+            <br> • Once either player wins the game declares a winner and allows you to restart the game by selecting play again
+            <div><button id="closeButton">Close</button></div>
+        </h3>
+    </div>
+    <div id="logo">
+        <img src="./img/gameLogo.png" height="250">
+    </div>
+    <div></div>
+    <div></div>
+    <div id="buttons">
+        <a href="index.html"><button>Play</button></a>
+        <button id="theRules">Rules</button>
+    </div>
+
+    <script src="splash.js" async defer></script>
+</body>
+
+</html>

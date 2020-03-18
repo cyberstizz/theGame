@@ -1,93 +1,252 @@
-* {
-    border: solid 5px;
-}
-
-body {
-    background-image: url(./img/backgroundBattle.gif);
-    background-repeat: cover;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.head {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 15vh;
-}
-
-.headImg {
-    width: 40vw;
-}
-
-.bod {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 30vh;
-}
-
-.wizardMove {
-    color: darkgreen;
-    width: 30vw;
-}
-
-.roundDisplay {
-    border: black solid 1px;
-}
-
-.witchMove {
-    color: blueviolet;
-}
-
-.battleInfo {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 15vh;
-}
-
-.health {
-    color: chartreuse;
-}
-
-.battleStage {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 40vh;
-}
-
-.wizMoveBox {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 30vh;
-}
-
-button {
-    background-color: orange;
-}
-
-.wizard {
-    width: 15vw;
-}
-
-.animationSpace {
-    width: 15vw;
-}
-
-.witch {
-    width: 15vw;
-}
-
-.witchMoveBox {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 30vh;
-}
+    * {
+        border: solid 2px;
+        margin: none;
+    }
+    
+    body {
+        background-image: url(./img/magicalBackground.gif);
+        background-repeat: no-repeat cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    #theWizard {
+        height: 100%;
+        width: 100%;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #head {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 15vh;
+        background-color: white;
+    }
+    
+    #headImg {
+        width: 20vw;
+        height: 100%;
+        align-self: center;
+        margin-left: 35vw;
+    }
+    
+    #bod {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 30vh;
+    }
+    
+    #wizardMove {
+        color: darkgreen;
+        width: 30vw;
+    }
+    
+    #roundDisplay {
+        border: black solid 1px;
+        width: 40vw;
+    }
+    
+    #witchMove {
+        color: blueviolet;
+        width: 30vw;
+    }
+    
+    #battleInfo {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 15vh;
+    }
+    
+    #turnDisplay {
+        width: 40vw;
+        height: 100%;
+    }
+    
+    #health {
+        color: chartreuse;
+        width: 30vw;
+        height: 30%;
+    }
+    
+    #healthWord {
+        height: 100%;
+    }
+    
+    #battleStage {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 30vh;
+    }
+    
+    #wizMoveBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        background-color: seashell;
+        width: 15vw;
+    }
+    
+    button {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #wizard {
+        width: 25vw;
+    }
+    
+    #animationSpace {
+        width: 15vw;
+    }
+    
+    #witch {
+        width: 25vw;
+    }
+    
+    #witchMoveBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        background-color: seashell;
+        width: 15vw;
+    }
+    
+    #wizBar {
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #wizbar1 {
+        background-color: darkgreen;
+        width: 20%;
+        border: none;
+    }
+    
+    #wizbar2 {
+        background-color: darkgreen;
+        width: 20%;
+        border: none;
+    }
+    
+    #wizbar3 {
+        background-color: darkgreen;
+        width: 20%;
+        border: none;
+    }
+    
+    #wizbar4 {
+        background-color: darkgreen;
+        width: 20%;
+        border: none;
+    }
+    
+    #wizbar5 {
+        background-color: darkgreen;
+        width: 20%;
+        border: none;
+    }
+    
+    #fireworks {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #witchBar {
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #witchBar1 {
+        background-color: purple;
+        width: 20%;
+        border: none;
+    }
+    
+    #witchBar2 {
+        background-color: purple;
+        width: 20%;
+        border: none;
+    }
+    
+    #witchBar3 {
+        background-color: purple;
+        width: 20%;
+        border: none;
+    }
+    
+    #witchBar4 {
+        background-color: purple;
+        width: 20%;
+        border: none;
+    }
+    
+    #witchBar5 {
+        background-color: purple;
+        width: 20%;
+        border: none;
+    }
+    
+    #wizbuttonAttack {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #wizbuttonShield {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #wizbuttonAbsorb {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #witchbuttonAttack {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #witchbuttonShield {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #witchbuttonAbsorb {
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #gameOver {
+        background-color: sienna;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        z-index: 2;
+        visibility: hidden;
+    }
+    
+    #endButton {
+        height: 30px;
+        width: 100px;
+        margin: 0;
+    }

@@ -358,10 +358,10 @@ const wizardAttack = () => {
 
     if (wizard.health <= 0) {
         alert('Game Over You Lose!');
-        ending.style.visibility = visible;
+        ending.style.visibility = 'visible';
     } else if (witch.health <= 0) {
         alert('Game Over You Win!');
-        ending.style.visibility = visible;
+        ending.style.visibility = 'visible';
     } else {
         alert('It is the Wizards turn! What will you do? Choose a move');
         turn.innerHTML = "<h2>Wizards Turn</h2>";

@@ -73,11 +73,13 @@
     #health {
         color: chartreuse;
         width: 30vw;
-        height: 30%;
+        height: 40%;
+        border: none;
     }
     
     #healthWord {
         height: 100%;
+        border: none;
     }
     
     #battleStage {
@@ -124,7 +126,7 @@
     }
     
     #wizBar {
-        height: 30%;
+        height: 25%;
         display: flex;
         flex-direction: row;
     }
@@ -165,7 +167,7 @@
     }
     
     #witchBar {
-        height: 30%;
+        height: 25%;
         display: flex;
         flex-direction: row;
     }
@@ -249,4 +251,9 @@
         height: 30px;
         width: 100px;
         margin: 0;
+    }
+    
+    span {
+        color: fuchsia;
+        border: none
     }

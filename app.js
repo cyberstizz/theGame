@@ -1,3 +1,8 @@
+setTimeout(() =>{
+    
+},500)
+
+
 // creation of wizard with all required properties
 const wizard = {
     health: 5,

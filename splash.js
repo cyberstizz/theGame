@@ -1,9 +1,3 @@
-const visit = 0;
-
-if(!visit){
-window.location.replace("./splash.js");
-visit++;
-}
 
 const openUp = () => {
     rules.style.visibility = "visible";

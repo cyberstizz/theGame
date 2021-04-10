@@ -1,102 +1,53 @@
 <!DOCTYPE html>
 
-<html class="js">
+<html class="no-js">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Wizard vs Witch</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splash.css">
 </head>
 
 <body>
-    <div id="gameOver">
-
-        <h1>Game Over !!!</h1><br>
-        <br>
-        <br>
-        <br>
-        <h1>If you want to play again click the button</h1>
-        <br>
-        <br>
-        <br>
-        <a href="splash.html"><button id="endButton">Play Again</button></a>
+    <div id="rulesBox">
+        <h3>Wizard vs Witch Rules
+            <br>• The wizard is fighting the witch until either player wins by depleting the opponents health
+            <br> Both players start with five health
+            <br> If a player loses a round their health goes down by one
+            <br>The Wizard always goes first
+            <br> The Computer is the Witch
+            <br> During each players turn they have the option to either Attack, Shield, or Absorb
+            <br> ----- If a player chooses attack
+            <br>They draw if the opponent attacks
+            <br> They lose if the opponent shields
+            <br> They win if the opponent absorbs
+            <br> ----- If a player chooses shield
+            <br> They draw if the opponent shields
+            <br> They lose if the opponent absorbs
+            <br> They win if the opponent attacks
+            <br> ----- If the player chooses absorb
+            <br> They draw if the opponent absorbs
+            <br>They lose if the opponent attacks
+            <br>They win if the opponent shields
+            <br>Each round continues in succession until a player wins
+            <br> • Once either player wins the game declares a winner and allows you to restart the game by selecting play again
+            <div><button id="closeButton">Close</button></div>
+        </h3>
     </div>
-    <header id="head">
-        <img id="headImg" src="./img/gameLogo.png" alt=" ">
-    </header>
-    <div id="bod">
-        <div id="wizardMove">
-            <h1>Wizard Chose Attack</h1>
-        </div>
-        <div id="roundDisplay">
-            <h3>Round</h3> <br>
-            <h4 id="roundNumber">0</h4>
-        </div>
-        <div class="witchMove">
-            <h1>Which Chose Attack</h1>
-        </div>
+    <div id="logo">
+        <img src="./img/gameLogo.png" height="250">
     </div>
-    <div id="battleInfo">
-        <div id="wizHealthBar">
-            <div id="health">
-                <h3 id="healthWord">Health</h3>
-            </div><br>
-            <div id="wizBar">
-                <div id="wizbar1"></div>
-                <div id="wizbar2"></div>
-                <div id="wizbar3"></div>
-                <div id="wizbar4"></div>
-                <div id="wizbar5"></div>
-            </div>
-        </div>
-        <div id="turnDisplay">
-            <h2>Wizards Turn</h2>
-        </div>
-        <div id="witchHealthBar">
-            <div id="health">
-                <h3 id="healthWord">
-                    <span>Health</span></h3>
-            </div><br>
-            <div id="witchBar">
-                <div id="witchBar1"></div>
-                <div id="witchBar2"></div>
-                <div id="witchBar3"></div>
-                <div id="witchBar4"></div>
-                <div id="witchBar5"></div>
-            </div>
-        </div>
-    </div>
-    <div id="battleStage">
-        <div id="wizMoveBox">
-            <button id="wizbuttonAttack">Attack</button>
-            <button id="wizbuttonShield">Shield</button>
-            <button id="wizbuttonAbsorb">Absorb</button>
-        </div>
-        <div id="wizard">
-            <img id="theWizard" src="./img/fixedWizard.gif">
-        </div>
-        <div id="animationSpace">
-            <img id="fireworks" src="./img/absorb power.gif">
-        </div>
-        <div id="witch">
-            <img src="./img/witchCharacter.gif ">
-        </div>
-        <div id="witchMoveBox">
-            <button id="witchbuttonAttack">Attack</button>
-            <button id="witchbuttonShield">Shield</button>
-            <button id="witchbuttonAbsorb">Absorb</button>
-        </div>
+    <div></div>
+    <div></div>
+    <div id="buttons">
+        <a href="index.html"><button>Play</button></a>
+        <button id="theRules">Rules</button>
     </div>
 
-
-
-
-
-
-    <script src="app.js " async defer></script>
+    <script src="splash.js" async defer></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
   "name": "thegame",
   "version": "1.0.0",
   "description": "This game is called Wizard vs Witch It is you vs the computer you land on a start page with an option to select rules if you start the game you have to select a button to attack first your move choices are attack shield and absorb after you choose an attack it is the witches turn every time you get hit you will lose health the first to deplete tho opponents lifebar will win let the best magician win!",
-  "main": "splash.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

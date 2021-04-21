@@ -1,4 +1,3 @@
-
 // creation of wizard with all required properties
 const wizard = {
     health: 5,
@@ -29,7 +28,7 @@ let hisMove = "";
 //creation of the witch's move that will later be set to different values
 let herMove = "";
 
-//creation variables for all required interactive elements in the dom
+//creation of variables for all required interactive elements in the dom
 
 //Wizard move declaration element
 let wizardMove = document.getElementById('wizardMove');

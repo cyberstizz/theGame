@@ -87,7 +87,7 @@ let ending = document.getElementById('gameOver');
 
 
 
-const wizardAttack = () => {
+const wizardAttack =  async () => {
     hisMove = 'attack';
 
     //the wizards move box will change to the results of the selected button
@@ -368,7 +368,7 @@ const wizardAttack = () => {
     };
 }
 
-const wizardShield = () => {
+const wizardShield =  async () => {
     hisMove = 'shield';
 
     //the wizards move box will change to the results of the selected button
@@ -649,7 +649,7 @@ const wizardShield = () => {
     };
 }
 
-const wizardAbsorb = () => {
+const wizardAbsorb =  async () => {
     hisMove = 'absorb';
 
     //the wizards move box will change to the results of the selected button

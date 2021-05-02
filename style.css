@@ -4,8 +4,8 @@
     }
     
     body {
-        background-image: url(./img/magicalBackground.gif);
-        background-repeat: no-repeat cover;
+        background-image: url(./img/abstract-magical-background.jpg);
+        background-repeat: no-repeat auto;
         height: 100vh;
         width: 100vw;
     }

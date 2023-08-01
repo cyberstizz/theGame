@@ -3,7 +3,7 @@
 ![](./Screenshot%202023-07-31%208.59.22%20PM.png)
 
 
-#             **Witch Vs Wizard**
+#             **Wizard Vs Witch**
 
 ## This is a Javascript application
 

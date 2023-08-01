@@ -23,7 +23,7 @@ to learn about async await to get us ready for the fetch api and calling the ser
 this is important because it serves as a sort of artistic relic of the past for me. The reason being that, I did not understand the concept of async await at all. In fact, I had not even been introduced to it yet. So for me this serves as a reminder that when we do not have all the tools to do a specific job, we will improvise and this sometimes makes us more creative. this project just so happened to work by luck.
 
 
-### ### Code Review
+### Code Review
 
 this game does not use asyn await at all which is CRAZY. after learning about how some functions(like api calls) require time to wait for the response, it would never even be considered that a program can work such as a game without it, since a user would need to give the game feedback and the game would have to respond. well this is definitely true, but the game works because of a weird reason. 
 
